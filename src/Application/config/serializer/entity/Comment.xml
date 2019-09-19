@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serializer>
+    <class name="App\Domain\Entity\Comment">
+        <property name="userId" type="string"/>
+        <property name="topicId" type="string"/>
+        <property name="comment" type="string"/>
+    </class>
+</serializer>

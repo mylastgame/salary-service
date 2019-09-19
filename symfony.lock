@@ -96,8 +96,65 @@
     "fig/link-util": {
         "version": "1.0.0"
     },
+    "guzzlehttp/guzzle": {
+        "version": "6.3.3"
+    },
+    "guzzlehttp/promises": {
+        "version": "v1.3.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.6.1"
+    },
+    "hoa/compiler": {
+        "version": "3.17.08.08"
+    },
+    "hoa/consistency": {
+        "version": "1.17.05.02"
+    },
+    "hoa/event": {
+        "version": "1.17.01.13"
+    },
+    "hoa/exception": {
+        "version": "1.17.01.16"
+    },
+    "hoa/file": {
+        "version": "1.17.07.11"
+    },
+    "hoa/iterator": {
+        "version": "2.17.01.10"
+    },
+    "hoa/math": {
+        "version": "1.17.05.16"
+    },
+    "hoa/protocol": {
+        "version": "1.17.01.14"
+    },
+    "hoa/regex": {
+        "version": "1.17.01.13"
+    },
+    "hoa/stream": {
+        "version": "1.17.02.21"
+    },
+    "hoa/ustring": {
+        "version": "4.17.01.16"
+    },
+    "hoa/visitor": {
+        "version": "2.17.01.16"
+    },
+    "hoa/zformat": {
+        "version": "1.17.01.10"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
+    },
+    "jms/metadata": {
+        "version": "2.0.0"
+    },
+    "jms/serializer": {
+        "version": "3.2.0"
+    },
+    "liip/functional-test-bundle": {
+        "version": "3.2.0"
     },
     "monolog/monolog": {
         "version": "1.24.0"
@@ -126,11 +183,17 @@
     "psr/container": {
         "version": "1.0.0"
     },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/link": {
         "version": "1.0.0"
     },
     "psr/log": {
         "version": "1.1.0"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -151,7 +214,7 @@
         "version": "v4.3.3"
     },
     "symfony/browser-kit": {
-        "version": "v4.3.3"
+        "version": "v4.3.4"
     },
     "symfony/cache": {
         "version": "v4.3.3"
@@ -176,7 +239,7 @@
         ]
     },
     "symfony/css-selector": {
-        "version": "v4.3.3"
+        "version": "v4.3.4"
     },
     "symfony/debug": {
         "version": "v4.3.3"
@@ -203,7 +266,7 @@
         "version": "v4.3.3"
     },
     "symfony/dom-crawler": {
-        "version": "v4.3.3"
+        "version": "v4.3.4"
     },
     "symfony/dotenv": {
         "version": "v4.3.3"
@@ -498,6 +561,24 @@
             "version": "3.3",
             "ref": "dae9b39fd6717970be7601101ce5aa960bf53d9a"
         }
+    },
+    "symfony/webpack-encore-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "d3b160b9799c91cbfc3df6f018c795f3bf88698a"
+        },
+        "files": [
+            "assets/css/app.css",
+            "assets/js/app.js",
+            "config/packages/assets.yaml",
+            "config/packages/prod/webpack_encore.yaml",
+            "config/packages/webpack_encore.yaml",
+            "package.json",
+            "webpack.config.js"
+        ]
     },
     "symfony/yaml": {
         "version": "v4.3.3"
